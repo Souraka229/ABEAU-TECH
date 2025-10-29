@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Devis - ABEAU TECH</title>
+    <meta name="description" content="Demandez un devis gratuit pour vos solutions WiFi au Bénin. Contactez ABEAU TECH au +229 40 55 07 85">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@300;400&display=swap');
+    </style>
+</head>
+<body class="bg-[#0a2540] text-[#f0f0f0] font-['Inter']">
+    <custom-navbar></custom-navbar>
+    
+    <!-- Contact Hero -->
+    <section class="relative py-32 bg-gradient-to-b from-[#0d2e52] to-[#0a2540]">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-6xl font-['Poppins'] font-bold mb-6">Contactez Notre Équipe</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">Un projet, une question? Nous sommes là pour vous aider</p>
+            <a href="#contact-form" class="inline-block bg-[#00bfff] hover:bg-[#0099cc] text-white font-bold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg">Demander un devis</a>
+        </div>
+    </section>
+
+    <!-- Contact Methods -->
+    <section class="py-16 bg-[#0d2e52]">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white/10 backdrop-blur-sm p-8 rounded-xl border border-white/20 text-center transition-all duration-300 hover:border-[#00bfff] hover:shadow-lg hover:shadow-[#00bfff]/20">
+                    <div class="text-[#00bfff] text-4xl mb-4">
+                        <i data-feather="phone"></i>
+                    </div>
+                    <h3 class="text-xl font-['Poppins'] font-semibold mb-3">Par Téléphone</h3>
+                    <p class="mb-4">Appelez-nous pour une réponse immédiate</p>
+                    <a href="tel:+22940550785" class="text-[#00bfff] hover:underline font-medium">+229 40 55 07 85</a>
+                    <p class="text-sm mt-2">Lun-Ven: 8h-18h</p>
+                </div>
+                
+                <div class="bg-white/10 backdrop-blur-sm p-8 rounded-xl border border-white/20 text-center transition-all duration-300 hover:border-[#00bfff] hover:shadow-lg hover:shadow-[#00bfff]/20">
+                    <div class="text-[#00bfff] text-4xl mb-4">
+                        <i data-feather="mail"></i>
+                    </div>
+                    <h3 class="text-xl font-['Poppins'] font-semibold mb-3">Par Email</h3>
+                    <p class="mb-4">Envoyez-nous un message pour toute demande</p>
+                    <a href="mailto:contact@abeautech.bj" class="text-[#00bfff] hover:underline font-medium">contact@abeautech.bj</a>
+                    <p class="text-sm mt-2">Réponse sous 24h</p>
+                </div>
+                
+                <div class="bg-white/10 backdrop-blur-sm p-8 rounded-xl border border-white/20 text-center transition-all duration-300 hover:border-[#00bfff] hover:shadow-lg hover:shadow-[#00bfff]/20">
+                    <div class="text-[#00bfff] text-4xl mb-4">
+                        <i data-feather="message-circle"></i>
+                    </div>
+                    <h3 class="text-xl font-['Poppins'] font-semibold mb-3">Via WhatsApp</h3>
+                    <p class="mb-4">Échangez en direct avec notre équipe</p>
+                    <a href="https://wa.me/22940550785" class="inline-block bg-[#00bfff] hover:bg-[#0099cc] text-white font-bold py-2 px-6 rounded-full text-sm transition-all">Envoyer un message</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact-form" class="py-16 bg-[#0a2540]">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <h2 class="text-3xl md:text-4xl font-['Poppins'] font-bold mb-12 text-center">Demandez un Devis Gratuit</h2>
+            <form class="bg-white/10 backdrop-blur-sm p-8 md:p-12 rounded-xl border border-white/20">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                    <div>
+                        <label for="name" class="block text-sm font-medium mb-2">Nom Complet *</label>
+                        <input type="text" id="name" name="name" required class="w-full bg-white/20 border border-white/30 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#00bfff] focus:border-transparent">
+                    </div>
+                    <div>
+                        <label for="company" class="block text-sm font-medium mb-2">Entreprise</label>
+                        <input type="text" id="company" name="company" class="w-full bg-white/20 border border-white/30 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#00bfff] focus:border-transparent">
+                    </div>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                    <div>
+                        <label for="email" class="block text-sm font-medium mb-2">Email *</label>
+                        <input type="email" id="email" name="email" required class="w-full bg-white/20 border border-white/30 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#00bfff] focus:border-transparent">
+                    </div>
+                    <div>
+                        <label for="phone" class="block text-sm font-medium mb-2">Téléphone *</label>
+                        <input type="tel" id="phone" name="phone" required class="w-full bg-white/20 border border-white/30 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#00bfff] focus:border-transparent">
+                    </div>
+                </div>
+                
+                <div class="mb-6">
+                    <label for="service" class="block text-sm font-medium mb-2">Service Intéressé *</label>
+                    <select id="service" name="service" required class="w-full bg-white/20 border border-white/30 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#00bfff] focus:border-transparent">
+                        <option value="">Sélectionnez un service</option>
+                        <option value="installation-wifi">Installation WiFi Professionnelle</option>
+                        <option value="securisation">Sécurisation des Réseaux</option>
+                        <option value="maintenance">Maintenance Préventive</option>
+                        <option value="surveillance">Surveillance 24/7</option>
+                        <option value="autre">Autre</option>
+                    </select>
+                </div>
+                
+                <div class="mb-6">
+                    <label for="message" class="block text-sm font-medium mb-2">Décrivez Votre Projet *</label>
+                    <textarea id="message" name="message" rows="5" required class="w-full bg-white/20 border border-white/30 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#00bfff] focus:border-transparent"></textarea>
+                </div>
+                
+                <div class="flex items-center mb-6">
+                    <input type="checkbox" id="consent" name="consent" required class="w-4 h-4 text-[#00bfff] bg-white/20 border-white/30 rounded focus:ring-[#00bfff]">
+                    <label for="consent" class="ml-2 text-sm">J'accepte que mes données soient utilisées pour répondre à ma demande *</label>
+                </div>
+                
+                <button type="submit" class="w-full bg-[#00bfff] hover:bg-[#0099cc] text-white font-bold py-4 px-6 rounded-lg transition-all duration-300 transform hover:scale-[1.02] shadow-lg flex items-center justify-center gap-2">
+                    <i data-feather="send"></i> Envoyer la Demande
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Our Location -->
+    <section class="py-16 bg-gradient-to-b from-[#0d2e52] to-[#0a2540]">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-['Poppins'] font-bold mb-12 text-center">Notre Localisation</h2>
+            <div class="flex flex-col md:flex-row gap-12">
+                <div class="md:w-1/2">
+                    <div class="bg-white/10 backdrop-blur-sm p-8 rounded-xl border border-white/20">
+                        <h3 class="text-xl font-['Poppins'] font-semibold mb-4">Nos Coordonnées</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <i data-feather="map-pin" class="text-[#00bfff] w-5 h-5 mr-3 mt-1"></i>
+                                <div>
+                                    <h4 class="font-medium">Adresse</h4>
+                                    <p class="text-gray-300 text-sm">123 Avenue de la Technologie, Cotonou, Bénin</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <i data-feather="phone" class="text-[#00bfff] w-5 h-5 mr-3 mt-1"></i>
+                                <div>
+                                    <h4 class="font-medium">Téléphone</h4>
+                                    <p class="text-gray-300 text-sm">+229 40 55 07 85</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <i data-feather="mail" class="text-[#00bfff] w-5 h-5 mr-3 mt-1"></i>
+                                <div>
+                                    <h4 class="font-medium">Email</h4>
+                                    <p class="text-gray-300 text-sm">contact@abeautech.bj</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <i data-feather="clock" class="text-[#00bfff] w-5 h-5 mr-3 mt-1"></i>
+                                <div>
+                                    <h4 class="font-medium">Heures d'Ouverture</h4>
+                                    <p class="text-gray-300 text-sm">Lundi - Vendredi: 8h - 18h<br>Samedi: 9h - 13h</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <!-- Map Placeholder - Replace with actual map embed -->
+                    <div class="bg-white/10 backdrop-blur-sm h-full rounded-xl border border-white/20 overflow-hidden">
+                        <div class="h-full w-full flex items-center justify-center text-center p-8">
+                            <div>
+                                <i data-feather="map" class="text-[#00bfff] w-12 h-12 mx-auto mb-4"></i>
+                                <p>Cotonou, Bénin</p>
+                                <p class="text-sm text-gray-300 mt-2">(Carte interactive serait intégrée ici)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-16 bg-[#00bfff]">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-['Poppins'] font-bold mb-6">Besoin d'Aide Immédiate?</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Notre équipe est disponible pour répondre à vos questions techniques urgentes</p>
+            <a href="https://wa.me/22940550785" class="inline-block bg-white hover:bg-gray-100 text-[#0a2540] font-bold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center justify-center gap-2 mx-auto">
+                <i data-feather="message-circle"></i> Support Urgent
+            </a>
+        </div>
+    </section>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/22940550785" class="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-xl z-50 transition-all duration-300 transform hover:scale-110">
+        <i data-feather="message-circle" class="w-8 h-8"></i>
+    </a>
+
+    <custom-footer></custom-footer>
+
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+        
+        // Form submission handling
+        const contactForm = document.querySelector('form');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Get form values
+                const name = document.getElementById('name').value;
+                const phone = document.getElementById('phone').value;
+                const service = document.getElementById('service').value;
+                const message = document.getElementById('message').value;
+                
+                // Create WhatsApp message
+                const whatsappMessage = `Nouvelle demande de contact:\n\nNom: ${name}\nTéléphone: ${phone}\nService: ${service}\nMessage: ${message}`;
+                const encodedMessage = encodeURIComponent(whatsappMessage);
+                
+                // Redirect to WhatsApp
+                window.location.href = `https://wa.me/22940550785?text=${encodedMessage}`;
+            });
+        }
+    </script>
+</body>
+</html>

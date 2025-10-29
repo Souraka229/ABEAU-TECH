@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produits WiFi Professionnels - ABEAU TECH</title>
+    <meta name="description" content="Découvrez notre gamme complète d'équipements réseaux et solutions WiFi professionnelles au Bénin. Contactez-nous au +229 40 55 07 85">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@300;400&display=swap');
+    </style>
+</head>
+<body class="bg-[#0a2540] text-[#f0f0f0] font-['Inter']">
+    <custom-navbar></custom-navbar>
+    
+    <!-- Products Hero -->
+    <section class="relative py-32 bg-gradient-to-b from-[#0d2e52] to-[#0a2540]">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-6xl font-['Poppins'] font-bold mb-6">Nos Produits WiFi Professionnels</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">Équipements haut de gamme pour réseaux performants et sécurisés</p>
+            <a href="#all-products" class="inline-block bg-[#00bfff] hover:bg-[#0099cc] text-white font-bold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg">Explorer la gamme</a>
+        </div>
+    </section>
+
+    <!-- Product Filters -->
+    <section class="py-12 bg-[#0d2e52]">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center mb-8">
+                <h2 class="text-2xl md:text-3xl font-['Poppins'] font-bold mb-4 md:mb-0">Filtrer par catégorie</h2>
+                <div class="flex flex-wrap gap-2">
+                    <button class="filter-btn active bg-[#00bfff] text-white px-4 py-2 rounded-full text-sm" data-category="all">Tous</button>
+                    <button class="filter-btn bg-white/10 hover:bg-white/20 px-4 py-2 rounded-full text-sm" data-category="routeurs">Routeurs</button>
+                    <button class="filter-btn bg-white/10 hover:bg-white/20 px-4 py-2 rounded-full text-sm" data-category="antennes">Antennes</button>
+                    <button class="filter-btn bg-white/10 hover:bg-white/20 px-4 py-2 rounded-full text-sm" data-category="switches">Switches</button>
+                    <button class="filter-btn bg-white/10 hover:bg-white/20 px-4 py-2 rounded-full text-sm" data-category="access-points">Points d'accès</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- All Products Grid -->
+    <section id="all-products" class="py-16 bg-[#0a2540]">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Product 1 -->
+                <div class="product-card bg-white/5 rounded-xl overflow-hidden border border-white/10 transition-all duration-300 hover:border-[#00bfff] hover:shadow-lg hover:shadow-[#00bfff]/20 hover:transform hover:-translate-y-2" data-category="routeurs">
+                    <img src="http://static.photos/technology/640x360/5" alt="Routeur Haut Débit" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="text-xl font-['Poppins'] font-semibold">Routeur WiFi 6 Pro</h3>
+                            <span class="bg-[#00bfff]/20 text-[#00bfff] text-xs px-2 py-1 rounded">Nouveau</span>
+                        </div>
+                        <p class="text-gray-300 mb-4 text-sm">Performances ultimes pour entreprises avec technologie WiFi 6</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-[#00bfff] font-bold">250.000 XOF</span>
+                            <a href="https://wa.me/22940550785?text=Je%20suis%20intéressé%20par%20le%20Routeur%20WiFi%206%20Pro" class="bg-[#00bfff] hover:bg-[#0099cc] text-white py-2 px-4 rounded-full text-sm transition-all flex items-center gap-1">
+                                <i data-feather="shopping-cart" class="w-4 h-4"></i> Commander
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="product-card bg-white/5 rounded-xl overflow-hidden border border-white/10 transition-all duration-300 hover:border-[#00bfff] hover:shadow-lg hover:shadow-[#00bfff]/20 hover:transform hover:-translate-y-2" data-category="antennes">
+                    <img src="http://static.photos/technology/640x360/6" alt="Antenne Directionnelle" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-['Poppins'] font-semibold mb-2">Antenne Directionnelle 5GHz</h3>
+                        <p class="text-gray-300 mb-4 text-sm">Portée étendue jusqu'à 5km avec connexion stable</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-[#00bfff] font-bold">180.000 XOF</span>
+                            <a href="https://wa.me/22940550785?text=Je%20suis%20intéressé%20par%20l'Antenne%20Directionnelle%205GHz" class="bg-[#00bfff] hover:bg-[#0099cc] text-white py-2 px-4 rounded-full text-sm transition-all flex items-center gap-1">
+                                <i data-feather="shopping-cart" class="w-4 h-4"></i> Commander
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="product-card bg-white/5 rounded-xl overflow-hidden border border-white/10 transition-all duration-300 hover:border-[#00bfff] hover:shadow-lg hover:shadow-[#00bfff]/20 hover:transform hover:-translate-y-2" data-category="switches">
+                    <img src="http://static.photos/technology/640x360/7" alt="Switch Gestionable" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-['Poppins'] font-semibold mb-2">Switch 24 Ports Gestionable</h3>
+                        <p class="text-gray-300 mb-4 text-sm">Idéal pour réseaux d'entreprise avec gestion avancée</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-[#00bfff] font-bold">350.000 XOF</span>
+                            <a href="https://wa.me/22940550785?text=Je%20suis%20intéressé%20par%20le%20Switch%2024%20Ports%20Gestionable" class="bg-[#00bfff] hover:bg-[#0099cc] text-white py-2 px-4 rounded-full text-sm transition-all flex items-center gap-1">
+                                <i data-feather="shopping-cart" class="w-4 h-4"></i> Commander
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 4 -->
+                <div class="product-card bg-white/5 rounded-xl overflow-hidden border border-white/10 transition-all duration-300 hover:border-[#00bfff] hover:shadow-lg hover:shadow-[#00bfff]/20 hover:transform hover:-translate-y-2" data-category="access-points">
+                    <img src="http://static.photos/technology/640x360/8" alt="Point d'Accès" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-['Poppins'] font-semibold mb-2">Point d'Accès WiFi 6</h3>
+                        <p class="text-gray-300 mb-4 text-sm">Pour zones à forte densité d'utilisateurs</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-[#00bfff] font-bold">320.000 XOF</span>
+                            <a href="https://wa.me/22940550785?text=Je%20suis%20intéressé%20par%20le%20Point%20d'Accès%20WiFi%206" class="bg-[#00bfff] hover:bg-[#0099cc] text-white py-2 px-4 rounded-full text-sm transition-all flex items-center gap-1">
+                                <i data-feather="shopping-cart" class="w-4 h-4"></i> Commander
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 5 -->
+                <div class="product-card bg-white/5 rounded-xl overflow-hidden border border-white/10 transition-all duration-300 hover:border-[#00bfff] hover:shadow-lg hover:shadow-[#00bfff]/20 hover:transform hover:-translate-y-2" data-category="routeurs">
+                    <img src="http://static.photos/technology/640x360/9" alt="Routeur Entreprise" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-['Poppins'] font-semibold mb-2">Routeur Entreprise Dual WAN</h3>
+                        <p class="text-gray-300 mb-4 text-sm">Redondance de connexion pour continuité de service</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-[#00bfff] font-bold">280.000 XOF</span>
+                            <a href="https://wa.me/22940550785?text=Je%20suis%20intéressé%20par%20le%20Routeur%20Entreprise%20Dual%20WAN" class="bg-[#00bfff] hover:bg-[#0099cc] text-white py-2 px-4 rounded-full text-sm transition-all flex items-center gap-1">
+                                <i data-feather="shopping-cart" class="w-4 h-4"></i> Commander
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 6 -->
+                <div class="product-card bg-white/5 rounded-xl overflow-hidden border border-white/10 transition-all duration-300 hover:border-[#00bfff] hover:shadow-lg hover:shadow-[#00bfff]/20 hover:transform hover:-translate-y-2" data-category="antennes">
+                    <img src="http://static.photos/technology/640x360/10" alt="Antenne Omnidirectionnelle" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-['Poppins'] font-semibold mb-2">Antenne Omnidirectionnelle 2.4GHz</h3>
+                        <p class="text-gray-300 mb-4 text-sm">Couverture 360° pour petites et moyennes surfaces</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-[#00bfff] font-bold">150.000 XOF</span>
+                            <a href="https://wa.me/22940550785?text=Je%20suis%20intéressé%20par%20l'Antenne%20Omnidirectionnelle%202.4GHz" class="bg-[#00bfff] hover:bg-[#0099cc] text-white py-2 px-4 rounded-full text-sm transition-all flex items-center gap-1">
+                                <i data-feather="shopping-cart" class="w-4 h-4"></i> Commander
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product FAQ -->
+    <section class="py-16 bg-gradient-to-b from-[#0d2e52] to-[#0a2540]">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <h2 class="text-3xl md:text-4xl font-['Poppins'] font-bold mb-12 text-center">Questions Fréquentes</h2>
+            <div class="space-y-4">
+                <div class="faq-item bg-white/10 backdrop-blur-sm p-6 rounded-xl border border-white/20 transition-all duration-300">
+                    <button class="faq-question flex justify-between items-center w-full text-left font-['Poppins'] font-semibold">
+                        <span>Quelle est la garantie sur vos produits?</span>
+                        <i data-feather="chevron-down" class="transform transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer mt-4 hidden">
+                        <p class="text-gray-300">Tous nos produits bénéficient d'une garantie constructeur de 1 an minimum, extensible à 2 ou 3 ans selon les modèles. Nous fournissons une assistance technique pendant toute la durée de la garantie.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item bg-white/10 backdrop-blur-sm p-6 rounded-xl border border-white/20 transition-all duration-300">
+                    <button class="faq-question flex justify-between items-center w-full text-left font-['Poppins'] font-semibold">
+                        <span>Proposez-vous l'installation des équipements?</span>
+                        <i data-feather="chevron-down" class="transform transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer mt-4 hidden">
+                        <p class="text-gray-300">Oui, nous proposons des services d'installation professionnelle pour tous nos équipements. Nos techniciens certifiés peuvent se déplacer sur tout le territoire béninois pour installer et configurer votre matériel.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item bg-white/10 backdrop-blur-sm p-6 rounded-xl border border-white/20 transition-all duration-300">
+                    <button class="faq-question flex justify-between items-center w-full text-left font-['Poppins'] font-semibold">
+                        <span>Quels sont vos délais de livraison?</span>
+                        <i data-feather="chevron-down" class="transform transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer mt-4 hidden">
+                        <p class="text-gray-300">Les produits en stock sont livrés sous 24-48h à Cotonou et 3-5 jours pour les autres villes du Bénin. Pour les commandes spéciales, les délais varient de 1 à 3 semaines selon les fournisseurs.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item bg-white/10 backdrop-blur-sm p-6 rounded-xl border border-white/20 transition-all duration-300">
+                    <button class="faq-question flex justify-between items-center w-full text-left font-['Poppins'] font-semibold">
+                        <span>Acceptez-vous les paiements en plusieurs fois?</span>
+                        <i data-feather="chevron-down" class="transform transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer mt-4 hidden">
+                        <p class="text-gray-300">Nous proposons des solutions de paiement échelonné pour les entreprises via nos partenaires financiers. Les conditions dépendent du montant de la commande et de votre situation. Contactez-nous pour plus d'informations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-16 bg-[#00bfff]">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-['Poppins'] font-bold mb-6">Vous ne trouvez pas ce que vous cherchez?</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Notre équipe est disponible pour vous conseiller sur la meilleure solution adaptée à vos besoins</p>
+            <a href="https://wa.me/22940550785" class="inline-block bg-white hover:bg-gray-100 text-[#0a2540] font-bold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center justify-center gap-2 mx-auto">
+                <i data-feather="message-circle"></i> Demander un conseil
+            </a>
+        </div>
+    </section>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/22940550785" class="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-xl z-50 transition-all duration-300 transform hover:scale-110">
+        <i data-feather="message-circle" class="w-8 h-8"></i>
+    </a>
+
+    <custom-footer></custom-footer>
+
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+        
+        // Product Filtering
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const productCards = document.querySelectorAll('.product-card');
+        
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Update active button
+                filterButtons.forEach(btn => btn.classList.remove('active', 'bg-[#00bfff]', 'text-white'));
+                button.classList.add('active', 'bg-[#00bfff]', 'text-white');
+                
+                const category = button.dataset.category;
+                
+                // Filter products
+                productCards.forEach(card => {
+                    if (category === 'all' || card.dataset.category === category) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+        
+        // FAQ Accordion
+        const faqQuestions = document.querySelectorAll('.faq-question');
+        
+        faqQuestions.forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                const icon = question.querySelector('i');
+                
+                answer.classList.toggle('hidden');
+                icon.classList.toggle('rotate-180');
+            });
+        });
+    </script>
+</body>
+</html>

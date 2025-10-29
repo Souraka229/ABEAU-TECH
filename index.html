@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABEAU TECH - Solutions WiFi Professionnelles au Bénin</title>
+    <meta name="description" content="Spécialistes en équipements réseaux et solutions WiFi haut débit au Bénin depuis 2 ans. Contactez-nous au +229 40 55 07 85">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@300;400&display=swap');
+    </style>
+</head>
+<body class="bg-[#0a2540] text-[#f0f0f0] font-['Inter']">
+    <custom-navbar></custom-navbar>
+    
+    <!-- Hero Section with Vanta.js Network Background -->
+    <section id="hero" class="relative h-screen flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-b from-[#0d2e52] to-[#0e3760] opacity-90"></div>
+        <div class="container mx-auto px-6 z-10 text-center">
+            <h1 class="text-4xl md:text-6xl font-['Poppins'] font-bold mb-6 animate-slide-from-bottom">La technologie WiFi professionnelle à votre portée</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto animate-slide-from-bottom delay-100">Solutions sur mesure pour entreprises et particuliers au Bénin</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center animate-slide-from-bottom delay-200">
+                <a href="#products" class="bg-[#00bfff] hover:bg-[#0099cc] text-white font-bold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg">Découvrir nos produits</a>
+                <a href="https://wa.me/22940550785" class="bg-white hover:bg-gray-100 text-[#0a2540] font-bold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center justify-center gap-2">
+                    <i data-feather="message-circle"></i> Contact WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-20 bg-gradient-to-b from-[#0e3760] to-[#0d2e52]">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-['Poppins'] font-bold mb-12 text-center">Spécialistes des solutions WiFi au Bénin</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white/10 backdrop-blur-sm p-8 rounded-xl border border-white/20 transition-all duration-300 hover:border-[#00bfff] hover:shadow-lg hover:shadow-[#00bfff]/20">
+                    <div class="text-[#00bfff] mb-4">
+                        <i data-feather="wifi" class="w-12 h-12"></i>
+                    </div>
+                    <h3 class="text-xl font-['Poppins'] font-semibold mb-3">Couverture Maximale</h3>
+                    <p>Installation de réseaux WiFi couvrant jusqu'à 1000m² avec technologie dernier cri</p>
+                </div>
+                <div class="bg-white/10 backdrop-blur-sm p-8 rounded-xl border border-white/20 transition-all duration-300 hover:border-[#00bfff] hover:shadow-lg hover:shadow-[#00bfff]/20">
+                    <div class="text-[#00bfff] mb-4">
+                        <i data-feather="shield" class="w-12 h-12"></i>
+                    </div>
+                    <h3 class="text-xl font-['Poppins'] font-semibold mb-3">Sécurité Renforcée</h3>
+                    <p>Configuration avancée avec protection contre les intrusions et accès non autorisés</p>
+                </div>
+                <div class="bg-white/10 backdrop-blur-sm p-8 rounded-xl border border-white/20 transition-all duration-300 hover:border-[#00bfff] hover:shadow-lg hover:shadow-[#00bfff]/20">
+                    <div class="text-[#00bfff] mb-4">
+                        <i data-feather="clock" class="w-12 h-12"></i>
+                    </div>
+                    <h3 class="text-xl font-['Poppins'] font-semibold mb-3">Support 24/7</h3>
+                    <p>Assistance technique disponible en permanence pour résoudre vos problèmes rapidement</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section id="products" class="py-20 bg-[#0d2e52]">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-['Poppins'] font-bold mb-12 text-center">Nos Produits Vedettes</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Product 1 -->
+                <div class="bg-white/5 rounded-xl overflow-hidden border border-white/10 transition-all duration-300 hover:border-[#00bfff] hover:shadow-lg hover:shadow-[#00bfff]/20 hover:transform hover:-translate-y-2">
+                    <img src="http://static.photos/technology/640x360/1" alt="Routeur Haut Débit" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-['Poppins'] font-semibold mb-2">Routeur WiFi 6 Pro</h3>
+                        <p class="text-gray-300 mb-4">Performances ultimes pour entreprises</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-[#00bfff] font-bold">250.000 XOF</span>
+                            <a href="https://wa.me/22940550785?text=Je%20suis%20intéressé%20par%20le%20Routeur%20WiFi%206%20Pro" class="bg-[#00bfff] hover:bg-[#0099cc] text-white py-2 px-4 rounded-full text-sm transition-all">Commander</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="bg-white/5 rounded-xl overflow-hidden border border-white/10 transition-all duration-300 hover:border-[#00bfff] hover:shadow-lg hover:shadow-[#00bfff]/20 hover:transform hover:-translate-y-2">
+                    <img src="http://static.photos/technology/640x360/2" alt="Antenne Directionnelle" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-['Poppins'] font-semibold mb-2">Antenne Directionnelle 5GHz</h3>
+                        <p class="text-gray-300 mb-4">Portée étendue jusqu'à 5km</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-[#00bfff] font-bold">180.000 XOF</span>
+                            <a href="https://wa.me/22940550785?text=Je%20suis%20intéressé%20par%20l'Antenne%20Directionnelle%205GHz" class="bg-[#00bfff] hover:bg-[#0099cc] text-white py-2 px-4 rounded-full text-sm transition-all">Commander</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="bg-white/5 rounded-xl overflow-hidden border border-white/10 transition-all duration-300 hover:border-[#00bfff] hover:shadow-lg hover:shadow-[#00bfff]/20 hover:transform hover:-translate-y-2">
+                    <img src="http://static.photos/technology/640x360/3" alt="Switch Gestionable" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-['Poppins'] font-semibold mb-2">Switch 24 Ports Gestionable</h3>
+                        <p class="text-gray-300 mb-4">Idéal pour réseaux d'entreprise</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-[#00bfff] font-bold">350.000 XOF</span>
+                            <a href="https://wa.me/22940550785?text=Je%20suis%20intéressé%20par%20le%20Switch%2024%20Ports%20Gestionable" class="bg-[#00bfff] hover:bg-[#0099cc] text-white py-2 px-4 rounded-full text-sm transition-all">Commander</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 4 -->
+                <div class="bg-white/5 rounded-xl overflow-hidden border border-white/10 transition-all duration-300 hover:border-[#00bfff] hover:shadow-lg hover:shadow-[#00bfff]/20 hover:transform hover:-translate-y-2">
+                    <img src="http://static.photos/technology/640x360/4" alt="Point d'Accès" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-['Poppins'] font-semibold mb-2">Point d'Accès WiFi 6</h3>
+                        <p class="text-gray-300 mb-4">Pour zones à forte densité d'utilisateurs</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-[#00bfff] font-bold">320.000 XOF</span>
+                            <a href="https://wa.me/22940550785?text=Je%20suis%20intéressé%20par%20le%20Point%20d'Accès%20WiFi%206" class="bg-[#00bfff] hover:bg-[#0099cc] text-white py-2 px-4 rounded-full text-sm transition-all">Commander</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-12">
+                <a href="produits.html" class="inline-block border-2 border-[#00bfff] text-[#00bfff] hover:bg-[#00bfff] hover:text-white font-bold py-3 px-8 rounded-full transition-all duration-300">Voir tous nos produits</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-20 bg-gradient-to-b from-[#0d2e52] to-[#0a2540]">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-['Poppins'] font-bold mb-12 text-center">Nos Clients Parlent de Nous</h2>
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-white/10 backdrop-blur-sm p-8 rounded-xl border border-white/20">
+                    <div class="flex items-center mb-6">
+                        <div class="flex mr-4">
+                            <i data-feather="star" class="text-yellow-400 w-5 h-5 fill-current"></i>
+                            <i data-feather="star" class="text-yellow-400 w-5 h-5 fill-current"></i>
+                            <i data-feather="star" class="text-yellow-400 w-5 h-5 fill-current"></i>
+                            <i data-feather="star" class="text-yellow-400 w-5 h-5 fill-current"></i>
+                            <i data-feather="star" class="text-yellow-400 w-5 h-5 fill-current"></i>
+                        </div>
+                        <h3 class="text-xl font-['Poppins'] font-semibold">Excellent service!</h3>
+                    </div>
+                    <p class="mb-6">"ABEAU TECH a installé notre réseau WiFi d'entreprise avec une couverture parfaite sur tout notre bâtiment de 3 étages. Le support technique est réactif et professionnel."</p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 rounded-full bg-[#00bfff] flex items-center justify-center text-white font-bold mr-4">JD</div>
+                        <div>
+                            <h4 class="font-['Poppins'] font-semibold">Jean D.</h4>
+                            <p class="text-sm text-gray-300">Directeur IT, Cotonou</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-16 bg-[#00bfff]">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-['Poppins'] font-bold mb-6">Prêt à booster votre connexion WiFi?</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Contactez-nous dès maintenant pour une solution sur mesure</p>
+            <a href="https://wa.me/22940550785" class="inline-block bg-white hover:bg-gray-100 text-[#0a2540] font-bold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center justify-center gap-2 mx-auto">
+                <i data-feather="message-circle"></i> Demander un devis gratuit
+            </a>
+        </div>
+    </section>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/22940550785" class="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-xl z-50 transition-all duration-300 transform hover:scale-110">
+        <i data-feather="message-circle" class="w-8 h-8"></i>
+    </a>
+
+    <custom-footer></custom-footer>
+
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+        VANTA.NET({
+            el: "#hero",
+            color: 0x00bfff,
+            backgroundColor: 0x0a2540,
+            points: 12,
+            maxDistance: 20,
+            spacing: 15
+        });
+    </script>
+</body>
+</html>
